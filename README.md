@@ -44,12 +44,11 @@ This is separate but complimentary to including an `AI_POLICY.md` or `CONTRIBUTI
 
 # RECENT CHANGES
 
-Changes for version v0.2.0 (2026-05-15)
+Changes for version v0.2.1 (2026-05-17)
 
 - Enhancements
-    - Added the models attribute for documenting the models used.
-- Documentation
-    - Updated documentation.
+    - Removed Type::Common from prerequsities to use the JSON schema to validate.
+    - Removed or changed other prerequisites to reduce dependencies.
 
 See the `Changes` file for more details.
 
@@ -59,14 +58,13 @@ This module lists the following modules as runtime dependencies:
 
 - [Carp](https://metacpan.org/pod/Carp)
 - [File::ShareDir](https://metacpan.org/pod/File%3A%3AShareDir)
-- [JSON::MaybeXS](https://metacpan.org/pod/JSON%3A%3AMaybeXS)
+- [JSON](https://metacpan.org/pod/JSON)
 - [JSON::Schema::Validate](https://metacpan.org/pod/JSON%3A%3ASchema%3A%3AValidate) version v0.7.0 or later
 - [Moo](https://metacpan.org/pod/Moo)
 - [Path::Tiny](https://metacpan.org/pod/Path%3A%3ATiny) version 0.130 or later
 - [PerlX::Maybe](https://metacpan.org/pod/PerlX%3A%3AMaybe)
-- [Types::Common](https://metacpan.org/pod/Types%3A%3ACommon)
 - [experimental](https://metacpan.org/pod/experimental)
-- [namespace::autoclean](https://metacpan.org/pod/namespace%3A%3Aautoclean)
+- [namespace::clean](https://metacpan.org/pod/namespace%3A%3Aclean)
 - [perl](https://metacpan.org/pod/perl) version v5.24.0 or later
 
 See the `cpanfile` file for the full list of prerequisites.

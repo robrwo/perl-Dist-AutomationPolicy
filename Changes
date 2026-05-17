@@ -1,6 +1,10 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Enhancements]
+  - Removed Type::Common from prerequsities to use the JSON schema to validate.
+
+  - Removed or changed other prerequisites to reduce dependencies.
 
 v0.2.0    2026-05-15 17:36:17+01:00 Europe/London
   [Enhancements]

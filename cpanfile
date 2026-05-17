@@ -3,14 +3,13 @@
 
 requires "Carp" => "0";
 requires "File::ShareDir" => "0";
-requires "JSON::MaybeXS" => "0";
+requires "JSON" => "0";
 requires "JSON::Schema::Validate" => "v0.7.0";
 requires "Moo" => "0";
 requires "Path::Tiny" => "0.130";
 requires "PerlX::Maybe" => "0";
-requires "Types::Common" => "0";
 requires "experimental" => "0";
-requires "namespace::autoclean" => "0";
+requires "namespace::clean" => "0";
 requires "perl" => "v5.24.0";
 
 on 'build' => sub {
