@@ -44,11 +44,10 @@ This is separate but complimentary to including an `AI_POLICY.md` or `CONTRIBUTI
 
 # RECENT CHANGES
 
-Changes for version v0.2.1 (2026-05-17)
+Changes for version v0.2.2 (2026-05-21)
 
-- Enhancements
-    - Removed Type::Common from prerequsities to use the JSON schema to validate.
-    - Removed or changed other prerequisites to reduce dependencies.
+- Bug Fixes
+    - Fix bug when JSON::XS is used as the backend.
 
 See the `Changes` file for more details.
 

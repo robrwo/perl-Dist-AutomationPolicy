@@ -312,7 +312,7 @@ has filename => (
     default => 'CPAN-META/automation-policy.json',
 );
 
-my $json = JSON->new( utf8 => 1, pretty => 1, canonical => 1 );
+my $json = JSON->new->utf8->pretty->canonical;
 
 my $file = path( dist_file( __PACKAGE__ =~ s/::/-/gr, "automation-policy-schema.json" ) );
 
