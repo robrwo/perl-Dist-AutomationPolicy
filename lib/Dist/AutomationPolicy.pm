@@ -15,7 +15,7 @@ use namespace::clean;
 
 use experimental qw( postderef signatures );
 
-our $VERSION = 'v0.2.2';
+our $VERSION = 'v0.2.3';
 
 # ABSTRACT: generate and parse distribution automation policies
 
